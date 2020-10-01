@@ -21,9 +21,9 @@ body {
      letter-spacing: 1rem;
 }
  .et-hero-tabs h3, .et-slide h3 {
-     font-size: 1rem;
+     font-size: 2rem;
      letter-spacing: 0.3rem;
-     opacity: 0.6;
+     opacity: 0.1;
 }
  .et-hero-tabs-container {
      display: flex;
@@ -33,8 +33,9 @@ body {
      width: 100%;
      height: 70px;
      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-     background: #fff;
+     background: #1f4068;
      z-index: 10;
+     opacity: 1;
 }
  .et-hero-tabs-container--top {
      position: fixed;
@@ -45,14 +46,14 @@ body {
      justify-content: center;
      align-items: center;
      flex: 1;
-     color: #000;
+     color: #ffdbc5;
      letter-spacing: 0.1rem;
      transition: all 0.5s ease;
      font-size: 0.8rem;
 }
  .et-hero-tab:hover {
-     color: white;
-     background: rgba(102, 177, 241, 0.8);
+     color: #0f4c75;
+     background: #7fdbda;
      transition: all 0.5s ease;
 }
  .et-hero-tab-slider {
@@ -60,7 +61,7 @@ body {
      bottom: 0;
      width: 0;
      height: 6px;
-     background: #66b1f1;
+     background: #a3f7bf;
      transition: left 0.3s ease;
 }
  @media (min-width: 800px) {
@@ -74,4 +75,28 @@ body {
          font-size: 1rem;
     }
 }
- 
+
+.saqqara {
+  background-color: #592b99;
+}
+
+.events {
+  background-color: #f0a500;
+}
+
+.about, .about h3 {
+  background-color: #0d7377;
+  opacity: 1;
+  color: white;
+  outline: black 1px solid;
+}
+
+.team, .team h3 {
+   background-color: #ffd5cd;
+   opacity: 1;
+}
+
+.contact h3 {
+  background-color: #0278ae;
+  opacity: 1;
+}
