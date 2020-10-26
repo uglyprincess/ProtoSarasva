@@ -13,3 +13,104 @@ background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, F
   transition-property: all;
   transition-duration: 2s;
 }
+
+#work {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  font-family: 'Fredoka One', cursive;
+  font-size: 5px; 
+  text-align: center;
+  float:left;
+  
+}
+
+.box span {
+  margin-top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section button {
+  background: #159957;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  font-family: 'Fredoka One', cursive;
+  padding: 15px;
+  border-radius: 30%;
+  margin-top: -250px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blue {
+  background-image: url(../images/blue.jpeg);
+  background-size: cover;
+  }
+
+.green {
+  background: #159957;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+
+.red {
+  background: #E44D26;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F16529, #E44D26);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F16529, #E44D26); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+.yellow {
+  background-image: url(../images/yellow.jpeg);
+  background-size: cover;
+  }
+
+.magenta {
+ background-image: url(../images/magenta.jpeg);
+ background-size: cover;
+
+}
+
+.turquoise {
+  background-image: url(../images/turquoise.jpeg);
+  background-size: cover;
+}
+
+.cyan {
+  background: #fc00ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.pink {
+  background-image: url(../images/pink.jpeg);
+  background-size: cover;
+}
+
+.grey {
+  background: #ddd6f3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.weird {
+  background: #c21500;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

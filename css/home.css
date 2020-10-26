@@ -30,10 +30,10 @@ body {
      flex-direction: row;
      position: absolute;
      bottom: 0;
-     width: 100%;
-     height: 70px;
+     width: 100% !important;
+     height: 50px;
      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-     background: #1f4068;
+     background: #000000;
      z-index: 10;
      opacity: 1;
 }
@@ -76,27 +76,37 @@ body {
     }
 }
 
-.saqqara {
-  background-color: #592b99;
-}
-
-.events {
-  background-color: #f0a500;
-}
-
 .about, .about h3 {
-  background-color: #0d7377;
+  background: #06beb6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   opacity: 1;
   color: white;
   outline: black 1px solid;
 }
 
 .team, .team h3 {
-   background-color: #ffd5cd;
+  background: #FFAFBD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
    opacity: 1;
 }
 
 .contact h3 {
   background-color: #0278ae;
   opacity: 1;
+}
+
+.events {
+  background-color: black;
+
+}
+
+.saqqara {
+  background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
